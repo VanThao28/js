@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link href="student.css" rel="stylesheet"> 
+    <script src="student.js"></script>
+</head>
+<body>
+    <div class="form">
+        <input type="text" id="my-text" class="general" placeholder="seach name and point..."></input>
+        <button type="button " class="general" onclick="search()">search</button>
+        <table id="my-table">
+            <tr>
+                <th>stt</th>
+                <th>name</th>
+                <th>point</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>thao</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>phuong</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>phong</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>nam</td>
+                <td>9</td>
+            </tr>
+        </table>
+        <button type="button" class="general" onclick="Sort()">sort by name</button>
+        <button type="button" class="general" onclick="point()">sort by point</button>
+        <button type="button" class="general" onclick="reset()" class="show">reset</button>
+    </div>
+</body>
+</html>
