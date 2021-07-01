@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="from-login.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>log in</title>
+</head>
+<body>
+    <div class="formdangky">
+        <form class="form" name="myform" onsubmit="return validate()">
+            <fieldset>
+                <div class="taikhoan" >
+                    <label >Tài Khoản:</label>
+                    <input type="text" name="use" ><span id="use-loc" style="font-size: 12px; color: red;"></span><br>
+                </div>
+                <div class="matkhau">
+                    <lable >Mật Khẩu: </lable>
+                    <input type="password" name="password" ><span id="password-loc" style="font-size: 12px; color: red;"></span><br>
+                </div>
+               <button type="submit" name="timkiem" value="regi">Đăng Nhập</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+<script src="valisdate-to-from.js"></script>
+</html>
