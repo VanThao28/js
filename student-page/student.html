@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="student.js"></script>
+    <link href="student.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form">
+        <input type="text" id="my-text" class="general" placeholder="seach name and point..."></input>
+        <button type="button " class="general" onclick="search()">search</button>
+        <p id="showTable"></p>
+            <div class="next-page">
+                <a href="#"class="pre">pre</a>
+                <a href="#"class="a">1</a>
+                <a href="#"class="b">2</a>
+                <a href="#"class="c">3</a>
+                <a href="#"class="run">run</a>
+            </div>
+            <div>
+                <button type="button" class="general" onclick="Sort()">sort by name</button>
+                <button type="button" class="general" onclick="point()">sort by point</button>
+                <button type="button" class="general" onclick="reset()" class="show">reset</button>
+            </div>
+    </div>
+</body>
+</html>
